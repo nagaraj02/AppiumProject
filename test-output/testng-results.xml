@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53100" started-at="2017-01-22T09:46:27Z" finished-at="2017-01-22T09:47:20Z">
+    <groups>
+      <group name="regression">
+        <method signature="Scenario_Search.testValidSearch(java.util.Map)[pri:0, instance:Scenario_Component.Scenario_Search@14acaea5]" name="testValidSearch" class="Scenario_Component.Scenario_Search"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Scenario_Search.testInvalidSearch(java.util.Map)[pri:0, instance:Scenario_Component.Scenario_Search@14acaea5]" name="testInvalidSearch" class="Scenario_Component.Scenario_Search"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="53100" started-at="2017-01-22T09:46:27Z" finished-at="2017-01-22T09:47:20Z">
+      <class name="Scenario_Component.Scenario_Search">
+        <test-method status="PASS" signature="init_Setup()[pri:0, instance:Scenario_Component.Scenario_Search@14acaea5]" name="init_Setup" is-config="true" duration-ms="508" started-at="2017-01-22T15:16:27Z" finished-at="2017-01-22T15:16:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_Setup -->
+        <test-method status="PASS" signature="testInvalidSearch(java.util.Map)[pri:0, instance:Scenario_Component.Scenario_Search@14acaea5]" name="testInvalidSearch" duration-ms="52804" started-at="2017-01-22T15:16:27Z" data-provider="dp_InvalidSearch" finished-at="2017-01-22T15:17:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, =, Execute_Flag=Y, TC_ID=GB_01, Script_name=InvalidSearch, Search_item=####$, Exp_Result=Sorry! There are no products to display.}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidSearch -->
+      </class> <!-- Scenario_Component.Scenario_Search -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
